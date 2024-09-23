@@ -12,7 +12,7 @@ namespace Tyuiu.OsadetsAA.Sprint1.Task1.V25
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
             Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #25                                                              *");
+            Console.WriteLine("* Вариант #25                                                             *");
             Console.WriteLine("* Выполнил: Осадец Александр Александрович | ПКТб-24-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -35,7 +35,7 @@ namespace Tyuiu.OsadetsAA.Sprint1.Task1.V25
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(Math.Round(ds.Calculate(x, y), 2));
+            Console.WriteLine(ds.Calculate(x, y));
             Console.ReadLine();
         }
     }
