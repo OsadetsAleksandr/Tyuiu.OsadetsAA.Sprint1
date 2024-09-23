@@ -28,14 +28,14 @@ namespace Tyuiu.OsadetsAA.Sprint1.Task1.V25
             Console.WriteLine("Введите значение X:");
             x = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите значение y:");
+            Console.WriteLine("Введите значение Y:");
             y = Convert.ToDouble(Console.ReadLine());
             
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, y));
+            Console.WriteLine(Math.Round(ds.Calculate(x, y), 2));
             Console.ReadLine();
         }
     }
